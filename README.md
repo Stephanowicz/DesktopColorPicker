@@ -5,9 +5,8 @@ Colorpicker for Windows
   
 A tiny helper for selecting or converting colors  
 Options:
-- pick color from a RGB-Colormap
-  - 4 dimensions are supported: R,G,B and brightness/luminance
-  - output of the selected color in R, G, B Integer/Hex-Values
+- pick color from a RGB-Colormap (Horizontal: Hue, Vertical: Saturation) and Luminance from a vertical slider  
+  - output of the selected color in R, G, B Integer- and Hex-Values
   - output in HSL values
   - output in VBA-Color (BGR Integer)
   - formatting of the RGB/HEX string with different delimiters
