@@ -1,0 +1,72 @@
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.dll.config
+E:\VS Projekts\ColorPicker\bin\Debug\ColorPicker.exe
+E:\VS Projekts\ColorPicker\bin\Debug\ColorPicker.pdb
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.dll
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.Imaging.dll
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.Math.Core.dll
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.Math.dll
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.Statistics.dll
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.xml
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.Imaging.xml
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.Math.xml
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.Math.Core.xml
+E:\VS Projekts\ColorPicker\bin\Debug\Accord.Statistics.xml
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.LuminanceBar.resources
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.ColorGradient.resources
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.Form1.resources
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.Properties.Resources.resources
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.csproj.GenerateResource.cache
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.csproj.CopyComplete
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.exe
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.pdb
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.dll.config
+E:\Documents\VS Projects\ColorPicker\bin\Debug\ColorPicker.exe
+E:\Documents\VS Projects\ColorPicker\bin\Debug\ColorPicker.pdb
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.dll
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.Imaging.dll
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.Math.Core.dll
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.Math.dll
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.Statistics.dll
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.xml
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.Imaging.xml
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.Math.xml
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.Math.Core.xml
+E:\Documents\VS Projects\ColorPicker\bin\Debug\Accord.Statistics.xml
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.LuminanceBar.resources
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.ColorGradient.resources
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.Form1.resources
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.Properties.Resources.resources
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.csproj.GenerateResource.cache
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.csproj.CoreCompileInputs.cache
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.csproj.CopyComplete
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.exe
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.pdb
+E:\Documents\VS Projects\ColorPicker\obj\Debug\ColorPicker.csprojAssemblyReference.cache
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.DesktopPicker.resources
+E:\VS Projekts\ColorPicker\bin\Debug\ColorPicker.exe.config
+E:\VS Projekts\ColorPicker\obj\Debug\ColorPicker.csprojAssemblyReference.cache
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.dll.config
+D:\CODING\C#\ColorPicker\bin\Debug\ColorPicker.exe.config
+D:\CODING\C#\ColorPicker\bin\Debug\ColorPicker.exe
+D:\CODING\C#\ColorPicker\bin\Debug\ColorPicker.pdb
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.dll
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.Imaging.dll
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.Math.Core.dll
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.Math.dll
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.Statistics.dll
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.xml
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.Imaging.xml
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.Math.xml
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.Math.Core.xml
+D:\CODING\C#\ColorPicker\bin\Debug\Accord.Statistics.xml
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.csproj.AssemblyReference.cache
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.DesktopPicker.resources
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.LuminanceBar.resources
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.ColorGradient.resources
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.Form1.resources
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.Properties.Resources.resources
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.csproj.GenerateResource.cache
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.csproj.CoreCompileInputs.cache
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPic.BF1CE39D.Up2Date
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.exe
+D:\CODING\C#\ColorPicker\obj\Debug\ColorPicker.pdb
