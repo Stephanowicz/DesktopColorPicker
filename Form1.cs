@@ -149,7 +149,7 @@ namespace ColorPicker
                 (tbG.Text.All(Char.IsDigit) && tbG.Text != "")
                 )
             {
-                Color c = Color.FromArgb(Convert.ToInt32(tbR.Text), Convert.ToInt32(tbB.Text), Convert.ToInt32(tbG.Text));
+                Color c = Color.FromArgb(Convert.ToInt32(tbR.Text), Convert.ToInt32(tbG.Text), Convert.ToInt32(tbB.Text));
                 HSL hSL = new HSL();
                 hSL.Hue = Convert.ToInt32(c.GetHue());
                 hSL.Luminance = c.GetBrightness();
