@@ -121,7 +121,8 @@ namespace ColorPicker
 
             int x = HSL.Hue * Width / 360;
             int y = Convert.ToInt32(Height - (HSL.Saturation * Height));
-            pbCrossHair.Location = new Point(x - 12, y - 12);
+            pbCrossHair.Enabled = false;   //click through
+            pbCrossHair.Location = new Point(x - (curWidth / 2), y - (curHeight / 2));
             if (!DesignMode)
                 HueChanged(this, new EventArgs());
         }
