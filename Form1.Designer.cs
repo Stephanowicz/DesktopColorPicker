@@ -55,7 +55,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.luminanceBar1 = new ColorPicker.LuminanceBar();
             this.colorGradient = new ColorPicker.ColorGradient();
-            this.tbARGB = new System.Windows.Forms.TextBox();
+            this.tbDecimal = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -198,8 +198,8 @@
             this.tbHex1.TabIndex = 11;
             this.tbHex1.Text = "FF";
             this.tbHex1.WordWrap = false;
-            this.tbHex1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbHEX_KeyPress);
-            this.tbHex1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbHEX_KeyUp);
+            this.tbHex1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbHEX123_KeyPress);
+            this.tbHex1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbHEX123_KeyUp);
             // 
             // tbHex2
             // 
@@ -209,8 +209,8 @@
             this.tbHex2.TabIndex = 10;
             this.tbHex2.Text = "FF";
             this.tbHex2.WordWrap = false;
-            this.tbHex2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbHEX_KeyPress);
-            this.tbHex2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbHEX_KeyUp);
+            this.tbHex2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbHEX123_KeyPress);
+            this.tbHex2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbHEX123_KeyUp);
             // 
             // tbHex3
             // 
@@ -220,8 +220,8 @@
             this.tbHex3.TabIndex = 9;
             this.tbHex3.Text = "FF";
             this.tbHex3.WordWrap = false;
-            this.tbHex3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbHEX_KeyPress);
-            this.tbHex3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbHEX_KeyUp);
+            this.tbHex3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbHEX123_KeyPress);
+            this.tbHex3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbHEX123_KeyUp);
             // 
             // cbHEXDelimiter
             // 
@@ -283,11 +283,12 @@
             // 
             this.tbHEX.Location = new System.Drawing.Point(115, 43);
             this.tbHEX.Name = "tbHEX";
-            this.tbHEX.ReadOnly = true;
             this.tbHEX.Size = new System.Drawing.Size(70, 20);
             this.tbHEX.TabIndex = 11;
             this.tbHEX.Text = "FF";
             this.tbHEX.WordWrap = false;
+            this.tbHEX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbHEX_KeyPress);
+            this.tbHEX.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbHEX_KeyUp);
             // 
             // btnDesktopPicker
             // 
@@ -338,26 +339,26 @@
             // 
             // tbARGB
             // 
-            this.tbARGB.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.tbARGB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbARGB.Location = new System.Drawing.Point(166, 322);
-            this.tbARGB.Name = "tbARGB";
-            this.tbARGB.Size = new System.Drawing.Size(94, 20);
-            this.tbARGB.TabIndex = 22;
-            this.tbARGB.Text = "16777215";
-            this.tbARGB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tbARGB.WordWrap = false;
-            this.tbARGB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbARGB_KeyPress);
-            this.tbARGB.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbARGB_KeyUp);
+            this.tbDecimal.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tbDecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbDecimal.Location = new System.Drawing.Point(166, 322);
+            this.tbDecimal.Name = "tbARGB";
+            this.tbDecimal.Size = new System.Drawing.Size(94, 20);
+            this.tbDecimal.TabIndex = 22;
+            this.tbDecimal.Text = "16777215";
+            this.tbDecimal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbDecimal.WordWrap = false;
+            this.tbDecimal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbDecimal_KeyPress);
+            this.tbDecimal.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbDecimal_KeyUp);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(106, 325);
+            this.label7.Location = new System.Drawing.Point(90, 325);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 13);
+            this.label7.Size = new System.Drawing.Size(75, 13);
             this.label7.TabIndex = 21;
-            this.label7.Text = "BGR (VBA)";
+            this.label7.Text = "Decimal (VBA)";
             // 
             // label8
             // 
@@ -373,7 +374,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(276, 423);
-            this.Controls.Add(this.tbARGB);
+            this.Controls.Add(this.tbDecimal);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.groupBox1);
@@ -436,7 +437,7 @@
         private System.Windows.Forms.TextBox tbHEX;
         private System.Windows.Forms.Button btnDesktopPicker;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox tbARGB;
+        private System.Windows.Forms.TextBox tbDecimal;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
     }
